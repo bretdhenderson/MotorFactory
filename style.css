@@ -2,6 +2,10 @@ body {
     background-color: rgb(31, 31, 31);
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .header {
     margin: auto;
     width: 60%;
@@ -26,12 +30,10 @@ body {
     color: rgb(122, 122, 122);
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     color: rgb(244, 244, 122);
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
     color: rgb(244, 244, 122);
 }
@@ -64,6 +66,7 @@ h4 {
 
 .review {
     margin: auto;
+    width: 320px;
     color: rgb(122, 122, 122);
     font-size: 15px;
     font-family: 'Arial, Franklin Gothic Medium', sans-serif;
@@ -128,6 +131,7 @@ h2 {
     margin: auto;
     list-style-type: circle;
     color: rgb(122, 122, 122);
+    text-align: left;
 }
 
 .btn-group {
@@ -137,4 +141,36 @@ h2 {
 
 .btn {
     background-color: rgb(31, 31, 31);
+}
+
+.carousel {
+    width: 400px;
+    height: 225 px;
+}
+
+.btn {
+    background-color: rgb(244, 244, 122);
+    border: none;
+    color: rgb(31, 31, 31);
+    margin: 10px 0px 50px;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(122, 122, 122);
+    color: rgb(244, 244, 122); 
+}
+
+#credit {
+    margin: 50px 0px 20px;
+    color: rgb(244, 244, 122); 
+}
+
+.ourstory {
+    width: 250px;
+    height: 400px;
+    float: left;
+    margin: 5px 25px;
 }
